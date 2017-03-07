@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0288E70B0689B0D276576D9C /* libPods-ShoppinSite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA8BD4861069FF98A685A2 /* libPods-ShoppinSite.a */; };
 		1004E7D21E5D08C0009F03E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1004E7D11E5D08C0009F03E2 /* AppDelegate.swift */; };
 		1004E7D41E5D08C0009F03E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1004E7D31E5D08C0009F03E2 /* ViewController.swift */; };
 		1004E7D71E5D08C0009F03E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1004E7D51E5D08C0009F03E2 /* Main.storyboard */; };
 		1004E7D91E5D08C0009F03E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1004E7D81E5D08C0009F03E2 /* Assets.xcassets */; };
 		1004E7DC1E5D08C0009F03E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1004E7DA1E5D08C0009F03E2 /* LaunchScreen.storyboard */; };
+		1004E7E41E5D0C04009F03E2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1004E7E31E5D0C04009F03E2 /* TableViewCell.swift */; };
+		1004E7E61E5D24C0009F03E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1004E7E51E5D24C0009F03E2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		1004E7D81E5D08C0009F03E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1004E7DB1E5D08C0009F03E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1004E7DD1E5D08C0009F03E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1004E7E31E5D0C04009F03E2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1004E7E51E5D24C0009F03E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16BA8BD4861069FF98A685A2 /* libPods-ShoppinSite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppinSite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6334CB2E2B1267A9C92244 /* Pods-ShoppinSite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppinSite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppinSite/Pods-ShoppinSite.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7EA921B7F5A9C0B6C8C1EC /* Pods-ShoppinSite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppinSite.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppinSite/Pods-ShoppinSite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0288E70B0689B0D276576D9C /* libPods-ShoppinSite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				1004E7D01E5D08C0009F03E2 /* ShoppinSite */,
 				1004E7CF1E5D08C0009F03E2 /* Products */,
+				403B5BE9970F2DEC5619F72B /* Pods */,
+				4CDDD05737582994E9D2A647 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,33 @@
 		1004E7D01E5D08C0009F03E2 /* ShoppinSite */ = {
 			isa = PBXGroup;
 			children = (
+				1004E7E51E5D24C0009F03E2 /* GoogleService-Info.plist */,
 				1004E7D11E5D08C0009F03E2 /* AppDelegate.swift */,
 				1004E7D31E5D08C0009F03E2 /* ViewController.swift */,
 				1004E7D51E5D08C0009F03E2 /* Main.storyboard */,
 				1004E7D81E5D08C0009F03E2 /* Assets.xcassets */,
 				1004E7DA1E5D08C0009F03E2 /* LaunchScreen.storyboard */,
 				1004E7DD1E5D08C0009F03E2 /* Info.plist */,
+				1004E7E31E5D0C04009F03E2 /* TableViewCell.swift */,
 			);
 			path = ShoppinSite;
+			sourceTree = "<group>";
+		};
+		403B5BE9970F2DEC5619F72B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6334CB2E2B1267A9C92244 /* Pods-ShoppinSite.debug.xcconfig */,
+				9E7EA921B7F5A9C0B6C8C1EC /* Pods-ShoppinSite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CDDD05737582994E9D2A647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BA8BD4861069FF98A685A2 /* libPods-ShoppinSite.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1004E7E01E5D08C0009F03E2 /* Build configuration list for PBXNativeTarget "ShoppinSite" */;
 			buildPhases = (
+				A510610297F62662ED133B0A /* [CP] Check Pods Manifest.lock */,
 				1004E7CA1E5D08C0009F03E2 /* Sources */,
 				1004E7CB1E5D08C0009F03E2 /* Frameworks */,
 				1004E7CC1E5D08C0009F03E2 /* Resources */,
+				6B186AC6A2D9061840855916 /* [CP] Embed Pods Frameworks */,
+				FAC4EE6CCDE37E0AA457CF0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1004E7DC1E5D08C0009F03E2 /* LaunchScreen.storyboard in Resources */,
+				1004E7E61E5D24C0009F03E2 /* GoogleService-Info.plist in Resources */,
 				1004E7D91E5D08C0009F03E2 /* Assets.xcassets in Resources */,
 				1004E7D71E5D08C0009F03E2 /* Main.storyboard in Resources */,
 			);
@@ -131,11 +165,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B186AC6A2D9061840855916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppinSite/Pods-ShoppinSite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A510610297F62662ED133B0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC4EE6CCDE37E0AA457CF0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppinSite/Pods-ShoppinSite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1004E7CA1E5D08C0009F03E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1004E7E41E5D0C04009F03E2 /* TableViewCell.swift in Sources */,
 				1004E7D41E5D08C0009F03E2 /* ViewController.swift in Sources */,
 				1004E7D21E5D08C0009F03E2 /* AppDelegate.swift in Sources */,
 			);
@@ -256,6 +339,7 @@
 		};
 		1004E7E11E5D08C0009F03E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6334CB2E2B1267A9C92244 /* Pods-ShoppinSite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppinSite/Info.plist;
@@ -268,6 +352,7 @@
 		};
 		1004E7E21E5D08C0009F03E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7EA921B7F5A9C0B6C8C1EC /* Pods-ShoppinSite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShoppinSite/Info.plist;
